@@ -37,7 +37,7 @@ img{
 .info{
     transition: 0.4s; 
     position: fixed;
-    top:0vh;
+    top:0.5vh;
     right: 2.5vw;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
