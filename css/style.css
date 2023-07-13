@@ -23,6 +23,7 @@ img{
     width: 45%;
 }
 .cerrar{
+    cursor: pointer;
     padding: 7px;
     background-color: rgba(44, 44, 44, 0.397);
     border-radius: 50em;
