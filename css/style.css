@@ -18,7 +18,6 @@ img{
 
 .carta{
     position: relative;
-    cursor: pointer;
     background-color: none;
     width: 45%;
     display:flex;
@@ -27,6 +26,7 @@ img{
     gap: 1vh;
 }
 .carta img{
+    cursor: pointer;
     border-radius: 10px;
 
 } 
