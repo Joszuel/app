@@ -6,7 +6,7 @@ const botonCerrar=document.querySelector(".cerrar");
 const abrir = (i)=>{
     info.style.opacity = "1";
     info.style.width = "95vw";
-    info.style.height="90vh";
+    info.style.height="100vh";
     infoImg.src=img[i].src;
 }
 const cerrar = ()=>{
