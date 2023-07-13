@@ -18,6 +18,7 @@ img{
 }
 
 .carta{
+    cursor: pointer;
     background-color: none;
     width: 45%;
 }
