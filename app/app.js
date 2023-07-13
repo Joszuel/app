@@ -5,7 +5,7 @@ const infoImg=document.querySelector(".info img");
 const botonCerrar=document.querySelector(".cerrar");
 const abrir = (i)=>{
     info.style.opacity = "1";
-    info.style.width = "80vw";
+    info.style.width = "95vw";
     info.style.height="80vh";
     infoImg.src=img[i].src;
 }
