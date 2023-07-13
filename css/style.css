@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
 }
 
 img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block;
 }
 .contenedor{
@@ -21,6 +22,10 @@ img{
     cursor: pointer;
     background-color: none;
     width: 45%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
 }
 .cerrar{
     cursor: pointer;
@@ -37,21 +42,24 @@ img{
 .info{
     transition: 0.4s; 
     position: fixed;
-    top:0.5vh;
+    top:2.5vh;
     right: 2.5vw;
-    background-color: rgba(255, 255, 255, 0.955);
-    border-radius: 10px;
+    background-color: rgba(235, 235, 235, 0.952);
+    border-radius: 20px;
     height: 0vh;
     width: 0vw;
     opacity: 0;
     
 }
 .info-text{
-    margin: 0vh 0;
+    margin: 2vh 0;
     text-align: center;
 }
+
+
+
 .info-text p {
-    margin: 0.2em 0;
+    margin: 0.3em 0;
 }
 .info-text h3{
     margin: 0.5em 0;
