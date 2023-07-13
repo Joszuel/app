@@ -8,8 +8,6 @@
 img{
     border: none;
     width: 100%;
-    border-radius: 25px;
-    display: block;
 }
 .contenedor{
     display: flex;
@@ -19,6 +17,7 @@ img{
 }
 
 .carta{
+    position: relative;
     cursor: pointer;
     background-color: none;
     width: 45%;
@@ -27,6 +26,10 @@ img{
     align-items: center;
     gap: 1vh;
 }
+.carta img{
+    border-radius: 10px;
+
+} 
 .cerrar{
     cursor: pointer;
     padding: 7px;
@@ -45,11 +48,14 @@ img{
     top:2.5vh;
     right: 2.5vw;
     background-color: rgba(235, 235, 235, 0.952);
-    border-radius: 25px;
+    border-radius: 10px;
     height: 0vh;
     width: 0vw;
     opacity: 0;
     
+}
+.info img{
+    border-radius: 10px;
 }
 .info-text{
     margin: 2vh 0;
