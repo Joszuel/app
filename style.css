@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.carta{
+    background-color: none;
+    width: 45%;
+}
+.cerrar{
+    padding: 7px;
+    background-color: rgba(44, 44, 44, 0.397);
+    border-radius: 50em;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top:2%;
+    right: 3%;
+    top: 1;
+}
+.info{
+    transition: 0.4s; 
+    position: fixed;
+    top:5vh;
+    right: 5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+    
+}
+.info-text{
+    height: 20%;
+    margin: 0vh 0;
+    text-align: center;
+}
+.info-text p {
+    margin: 0.2em 0;
+}
+.info-text h3{
+    margin: 0.75em 0;
+}
