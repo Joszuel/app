@@ -4,7 +4,6 @@ const info=document.querySelector(".info");
 const infoImg=document.querySelector(".info img");
 const botonCerrar=document.querySelector(".cerrar");
 const abrir = (i)=>{
-    console.log(i)
     infoImg.src=i.src;
     info.style.opacity = "1";
     info.style.width = "95vw";
@@ -17,8 +16,11 @@ const cerrar = ()=>{
 }
 
     contenedor.addEventListener('click',(a)=>{
+        console.log(a.target)
         if(a.target.localName==="img"){
         abrir(a.target)
+        }else if (a.target.localName==="h3"){
+            
         }
     })
 
