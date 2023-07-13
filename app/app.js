@@ -4,10 +4,10 @@ const info=document.querySelector(".info");
 const infoImg=document.querySelector(".info img");
 const botonCerrar=document.querySelector(".cerrar");
 const abrir = (i)=>{
+    infoImg.src=img[i].src;
     info.style.opacity = "1";
     info.style.width = "95vw";
     info.style.height="95vh";
-    infoImg.src=img[i].src;
 }
 const cerrar = ()=>{
     info.style.opacity="0";
