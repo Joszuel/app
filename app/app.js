@@ -16,11 +16,11 @@ const cerrar = ()=>{
 }
 
     contenedor.addEventListener('click',(a)=>{
-        console.log(a.target)
-        if(a.target.localName==="img"){
-        abrir(a.target)
-        }else if (a.target.localName==="h3"){
-            
+        console.log(a.target.firstElementChild)
+        if(a.target.parentElement.className==="carta"){
+            abrir(a.target.parentElement.firstElementChild)
+        }else if (a.target.parentElement.className==="contenedor"){
+            abrir(a.target.firstElementChild)
         }
     })
 

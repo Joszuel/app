@@ -9,20 +9,26 @@ img{
     border: none;
     width: 100%;
 }
+body{
+background-color: rgb(245, 245, 245);
+}
 .cab{
 
     text-align: center;
-    height: 10vh;
+    margin: 5vh 0;
 }
 .contenedor{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
+    gap: 2vh 0;
 }
 
 .carta{
+    cursor: pointer;
+    background-color:white;
+    padding: 2vh;
+    border-radius: 10px;
     position: relative;
     background-color: none;
     width: 45%;
@@ -31,8 +37,8 @@ img{
     align-items: center;
     gap: 1vh;
 }
+
 .carta img{
-    cursor: pointer;
     border-radius: 10px;
 
 } 
@@ -52,8 +58,8 @@ img{
     transition: 0.4s; 
     position: fixed;
     top:2.5vh;
-    right: 2.5vw;
-    background-color: rgba(235, 235, 235, 0.952);
+    right: 2vw;
+    background-color: white;
     border-radius: 10px;
     height: 0vh;
     width: 0vw;
@@ -64,15 +70,25 @@ img{
     border-radius: 10px;
 }
 .info-text{
+    width: 100%;
     margin: 2vh 0;
     text-align: center;
 }
-
-
-
 .info-text p {
     margin: 0.3em 0;
 }
 .info-text h3{
     margin: 0.5em 0;
+}
+@media screen and (min-width:500px) {
+    .carta{width: 18%;}
+    .info{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 50%;
+    }
+    .info img{
+        width: auto;
+        height: 100%;
+    }
 }
